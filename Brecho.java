@@ -3,6 +3,8 @@ package br.unicamp.ic.inf335;
 import java.util.ArrayList;
 import java.util.Collections;
 
+
+// esse Ã© um test de versioanmento de fix
 import br.unicamp.ic.inf335.beans.ProdutoBean;
 
 public class Brecho {
@@ -32,7 +34,7 @@ public class Brecho {
 			System.out.println("Codigo = " + produtos.get(i).getCodigo() + " Nome = " + produtos.get(i).getNome() + " Valor = " + produtos.get(i).getValor());
 		}
 		
-		// Calcula Média
+		// Calcula Mï¿½dia
 		Double media = 0.0;
 		int i = 1;
 		while (i<=produtos.size()) {
